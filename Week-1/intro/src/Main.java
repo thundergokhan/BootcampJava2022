@@ -1,4 +1,4 @@
-package info;
+package intro;
 
 public class Main {
 	// main javada başlangıç noktasıdır
