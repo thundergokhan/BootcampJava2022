@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="intro/src"/>
+	<classpathentry kind="src" path="Week-1 Assignment/arkadasSayilar/src"/>
+	<classpathentry kind="src" path="Week-1 Assignment/arraysDemo/src"/>
+	<classpathentry kind="src" path="Week-1 Assignment/conditionals/src"/>
+	<classpathentry kind="src" path="Week-1 Assignment/dataTypes/src"/>
+	<classpathentry kind="src" path="Week-1 Assignment/loopDemo/src"/>
+	<classpathentry kind="src" path="Week-1 Assignment/miniProjeAsalSayi/src"/>
+	<classpathentry kind="src" path="Week-1 Assignment/mukemmelSayi/src"/>
+	<classpathentry kind="src" path="Week-1 Assignment/multiDimensionalArrayDemo/src"/>
+	<classpathentry kind="src" path="Week-1 Assignment/recapDemo1/src"/>
+	<classpathentry kind="src" path="Week-1 Assignment/recapDemo2/src"/>
+	<classpathentry kind="src" path="Week-1 Assignment/sayiBulma/src"/>
+	<classpathentry kind="src" path="Week-1 Assignment/sesliHarfler/src"/>
+	<classpathentry kind="src" path="Week-1 Assignment/stringsDemo/src"/>
+	<classpathentry kind="src" path="Week-1 Assignment/switchDemo/src"/>
+	<classpathentry kind="src" path="Week-1 Assignment/variables/src"/>
+	<classpathentry kind="output" path="Week-1 Assignment/arraysDemo/bin"/>
+</classpath>

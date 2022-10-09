@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="oop1/src"/>
+	<classpathentry kind="src" path="Week-2 Assignment/classes/src"/>
+	<classpathentry kind="src" path="Week-2 Assignment/classesWithAttributes/src"/>
+	<classpathentry kind="src" path="Week-2 Assignment/inheritance/src"/>
+	<classpathentry kind="src" path="Week-2 Assignment/inheritanceDemo/src"/>
+	<classpathentry kind="src" path="Week-2 Assignment/methodOverloading/src"/>
+	<classpathentry kind="src" path="Week-2 Assignment/methods/src"/>
+	<classpathentry kind="src" path="Week-2 Assignment/methods2/src"/>
+	<classpathentry kind="src" path="Week-2 Assignment/reCapDemo_Classes/src"/>
+	<classpathentry kind="src" path="Week-2 Assignment/sayiBulma/src"/>
+	<classpathentry kind="output" path="Week-2 Assignment/classes/out/production/classes"/>
+</classpath>
