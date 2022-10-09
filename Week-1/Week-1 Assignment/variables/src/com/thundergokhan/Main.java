@@ -1,4 +1,4 @@
-package com.pelinhangisi;
+package variables;
 
 public class Main {
 
