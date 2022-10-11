@@ -24,7 +24,7 @@ public class Main {
                 isPrime = false;
             }
         }
-        if (isPrime==true){ //buraya sadece isPrime olarak da yazılırsa true kabul edilir
+        if (isPrime==true){  //buraya sadece isPrime olarak da yazılırsa true kabul edilir
             System.out.println("Sayı asaldır.");
         }
         else{
