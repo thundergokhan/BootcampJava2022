@@ -1,14 +1,8 @@
--- SELECT
--- ANSI
+SELECT * FROM Customers     /*        *  demek tüm kolonlarý seç      */
+                            /* Yani Customer tablosundan tüm kolonlarý getir demek */
 SELECT 
-  * 
-FROM 
-  Customers  
-  /*        * demek tüm kolonlarý seç      */
-  
-SELECT 
-  ContactName, 
-  CompanyName, 
+  ContactName,
+  CompanyName,
   City 
 FROM 
   Customers 
@@ -109,7 +103,7 @@ WHERE
 GROUP BY 
   CategoryId 
 HAVING 
-  COUNT(*) < 10 
+  COUNT(*) < 10                    /* 10dan az ürün olan kategorilerini getir */
 SELECT 
   Products.ProductId, 
   Products.ProductName, 
@@ -117,13 +111,14 @@ SELECT
   Categories.CategoryName 
 FROM 
   Products 
-  INNER JOIN Categories ON Products.CategoryId = Categories.CategoryId -- DTO : Data Transformation Object
+  INNER JOIN Categories ON Products.CategoryId = Categories.CategoryId
 Select 
   * 
 from 
   Products p 
   inner join [Order Details] od on p.ProductId = od.ProductId 
-Select 
+
+Select                     /* ikiden fazla tabloyu join eder */
   * 
 from 
   Products p 
@@ -142,3 +137,5 @@ from
   right join Orders o on c.CustomerId = o.CustomerId 
 where 
   o.CustomerId is null
+
+  /* SQL Formatter ile düzenlemek için site linkide býrakýyorum  --->  " https://codebeautify.org/sqlformatter " */
