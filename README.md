@@ -6,7 +6,7 @@ This repository contains projects developed during the Java &amp; Spring 2022 Ca
 Homeworks
 </h2>
 <ul dir="auto">
-<li><code>Java Bootcamp (Info: Finish: • | Didn't finish: ○ </code></li>
+<li><code>Java Bootcamp (Info: Finished: • | Didn't finish: ○ </code></li>
 <li><code>Homework 1 • </code></li>
 <li><code>Homework 2 • </code></li>
 <li><code>Homework 3 • </code></li>
