@@ -10,5 +10,7 @@ Homeworks
 <li><code>Homework 1 • </code></li>
 <li><code>Homework 2 • </code></li>
 <li><code>Homework 3 • </code></li>
+<li><code>Homework 4 ○ </code></li>
+<li><code>Homework 5 ○ </code></li>
 </ul>
 <p dir="auto">To learn more, please check the camp <a href="https://www.kodlama.io/p/yazilim-gelistirici-yetistirme-kampi21" rel="nofollow">details</a>.</p>
