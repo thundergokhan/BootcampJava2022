@@ -1,60 +1,24 @@
 package kodlama.io.rentACar.entities.concretes;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import lombok.*;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import javax.persistence.*;
 
-@Table(name="brands")
-//@Getter
-//@Setter
-//@AllArgsConstructor
-//@NoArgsConstructor
+@Table(name = "brands")
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 public class Brand {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="id")
+	@Column(name = "id")
 	private int id;
-	
-	@Column(name="name")
+
+	@Column(name = "name")
 	private String name;
 
-	public Object getId() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public Object getId11() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public Object getId1() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public Object getName() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	public void setName(Object name2) {
-		// TODO Auto-generated method stub
-		
-	}
-	
 }
-
-
 //Mapping

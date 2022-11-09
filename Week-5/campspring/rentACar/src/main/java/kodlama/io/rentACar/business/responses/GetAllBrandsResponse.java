@@ -8,15 +8,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class GetAllBrandsResponse {
-	
-	
-	public void setId(Object id2) {
-		// TODO Auto-generated method stub
-		
-	}
-	public void setName(Object name2) {
-		// TODO Auto-generated method stub
-		
-	}
-
+	private int id;
+	private String name;
 }

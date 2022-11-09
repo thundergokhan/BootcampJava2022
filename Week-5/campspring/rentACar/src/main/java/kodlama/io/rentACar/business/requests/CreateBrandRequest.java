@@ -8,10 +8,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CreateBrandRequest {
-
-
-	public Object getName() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	private String name;
 }
