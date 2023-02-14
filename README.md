@@ -13,4 +13,35 @@ Homeworks
 <li><code>Homework 4 • </code></li>
 <li><code>Homework 5 • </code></li>
 </ul>
+
+This repository contains the assignments, projects, and class notes for the Java Bootcamp 2022 course. The course covers the fundamentals of Java programming, including object-oriented programming, data structures, algorithms, and more.
+
+## Course Syllabus
+
+The course is divided into several modules, each covering a different aspect of Java programming. Here's an overview of the course syllabus:
+
+- **Module 1**: Introduction to Java
+- **Module 2**: Variables and Data Types
+- **Module 3**: Operators and Expressions
+- **Module 4**: Control Flow Statements
+- **Module 5**: Arrays and ArrayLists
+- **Module 6**: Object-Oriented Programming
+- **Module 7**: Inheritance and Polymorphism
+- **Module 8**: Abstract Classes and Interfaces
+- **Module 9**: Exception Handling
+- **Module 10**: File I/O and Serialization
+- **Module 11**: Generics
+- **Module 12**: Collections Framework
+- **Module 13**: Multithreading
+- **Module 14**: Networking and Client-Server Communication
+- **Module 15**: JDBC and Databases
+
+## Assignments and Projects
+
+Each module has several assignments and projects, which are designed to reinforce the concepts covered in the module. Assignments are shorter and designed to be completed within a few hours, while projects are larger and more complex.
+
+## Class Notes
+
+The `class-notes` directory contains notes and code snippets from each class. The notes are organized by date and topic, and include code examples, explanations, and links to additional resources.
+
 <p dir="auto">To learn more, please check the camp <a href="https://www.kodlama.io/p/yazilim-gelistirici-yetistirme-kampi21" rel="nofollow">details</a>.</p>
