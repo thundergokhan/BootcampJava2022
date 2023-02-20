@@ -2,7 +2,7 @@ package impl;
 
 import com.example.languageframework.model.Language;
 import com.example.languageframework.repository.LanguageRepository;
-import com.example.languageframework.service.LanguageService;
+import service.LanguageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

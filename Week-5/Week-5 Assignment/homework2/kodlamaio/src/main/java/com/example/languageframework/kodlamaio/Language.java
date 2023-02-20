@@ -1,22 +1,12 @@
-package com.example.languageframework.kodlamaio;
+package com.example.languageframework.model;
 
 public class Language {
-    private int id;
     private String name;
-    private String[] technologies;
+    private String language;
 
-    public Language(int id, String name, String[] technologies) {
-        this.id = id;
+    public Language(String name, String language) {
         this.name = name;
-        this.technologies = technologies;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+        this.language = language;
     }
 
     public String getName() {
@@ -27,11 +17,11 @@ public class Language {
         this.name = name;
     }
 
-    public String[] getTechnologies() {
-        return technologies;
+    public String getLanguage() {
+        return language;
     }
 
-    public void setTechnologies(String[] technologies) {
-        this.technologies = technologies;
+    public void setLanguage(String language) {
+        this.language = language;
     }
 }
