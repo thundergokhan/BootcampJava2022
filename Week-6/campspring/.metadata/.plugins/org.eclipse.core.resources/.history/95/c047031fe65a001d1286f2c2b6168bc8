@@ -1,8 +1,0 @@
-package kodlama.io.rentACar.business.responses;
-
-public class GetAllBrandsResponse {
-	
-	private int id;
-	private String name;
-
-}
