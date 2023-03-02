@@ -19,31 +19,30 @@ import kodlama.io.Kodlama.io.Devs.entities.concretes.Language;
 @RestController
 @RequestMapping("/api/languages")
 public class LanguagesController {
-	private LanguageService languageService;
+    private LanguageService languageService;
 
-	@Autowired
-	public LanguagesController(LanguageService languageService) {
-		this.languageService = languageService;
-	}
+    @Autowired
+    public LanguagesController(LanguageService languageService) {
+        this.languageService = languageService;
+    }
 
-	@GetMapping("/getall")
-	public List<Language> getall() {
-		return languageService.getAll();
+    @GetMapping("/getall")
+    public List<Language> getall() {
+        return languageService.getAll();
+    }
 
-	}
+    @PostMapping("/add")
+    public void add(CreateLanguageRequest createLanguageRequest) {
+        languageService.addLanguage(createLanguageRequest);
+    }
 
-	@PostMapping("/add")
-	public void add(CreateLanguageRequest createLanguageRequest){
-		languageService.addLanguage(createLanguageRequest);
-	}
-	
-	@DeleteMapping("/deleteLanguage/{id}")
-    public void deleteLanguage(DeleteLanguageRequest deleteLanguageRequest){
+    @DeleteMapping("/deleteLanguage/{id}")
+    public void deleteLanguage(DeleteLanguageRequest deleteLanguageRequest) {
         languageService.deleteLanguage(deleteLanguageRequest);
     }
-	 
-	 @PutMapping("/update")
-	    public void updateLanguage(UpdateLanguageRequest updateLanguageRequest) {
-	        languageService.updateLanguage(updateLanguageRequest);
-	    }
+
+    @PutMapping("/update")
+    public void updateLanguage(UpdateLanguageRequest updateLanguageRequest) {
+        languageService.updateLanguage(updateLanguageRequest);
+    }
 }
